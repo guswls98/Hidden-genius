@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+.P_text{
+  position : absolute;
+  top : 38%;
+  left : 19%;
+  font-family : Tmon몬소리 Black;
+  font-size : 70px;
+  opacity: 1;
+  background-color: #020202;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.P_text2{
+  position : absolute;
+  top : 41%;
+  left : 19%;
+  font-family : Tmon몬소리 Black;
+  color: white;
+  font-size : 70px;
+  opacity:0;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.pica:hover .P_text2{
+  opacity:1;
+}
+
+.pica:hover .P_text{
+  opacity: 0;
+}
+
+.pica:hover .picaimg{
+  border-color: white;
+}
+.picaimg{
+  width : 260px;
+  height : 460px;
+  margin-top: 10px;
+  position : absolute;
+  left : 17%;
+  border: 8px solid;
+  border-radius: 10px;
+}
+
+.M_text{
+  position : absolute;
+  top : 38%;
+  left : 43.7%;
+  font-family : Tmon몬소리 Black;
+  font-size : 70px;
+  opacity: 1;
+  background-color: #020202;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.M_text2{
+  position : absolute;
+  top : 41%;
+  left : 45%;
+  font-family : Tmon몬소리 Black;
+  color: white;
+  font-size : 70px;
+  opacity:0;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.mon:hover .M_text2{
+  opacity:1;
+}
+
+.mon:hover .M_text{
+  opacity: 0;
+}
+
+.mon:hover .monimg{
+  border-color: white;
+}
+
+.mon:hover body{
+  background-color: red;
+}
+
+.monimg{
+  width : 260px;
+  height : 460px;
+  margin-top: 10px;
+  position : absolute;
+  left : 43%;
+  border: 8px solid;
+  border-radius: 10px;
+}
+
+.R_text{
+  position : absolute;
+  top : 41%;
+  left : 69.6%;
+  font-family : Tmon몬소리 Black;
+  font-size : 70px;
+  opacity: 1;
+  background-color: #020202;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.R_text2{
+  position : absolute;
+  top : 41%;
+  left : 71.5%;
+  font-family : Tmon몬소리 Black;
+  color: white;
+  font-size : 70px;
+  opacity:0;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.rod:hover .R_text2{
+  opacity:1;
+}
+
+.rod:hover .R_text{
+  opacity: 0;
+}
+
+.rod:hover .rodimg{
+  border-color: white;
+}
+
+.rodimg{
+  width : 260px;
+  height : 460px;
+  margin-top: 10px;
+  position : absolute;
+  left : 69%;
+  border: 8px solid;
+  border-radius: 10px;
+}
