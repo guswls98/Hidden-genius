@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+<link rel="stylesheet" href="art_person_picture.css">
+
+<style media="screen">
+
+body{
+    background-image: url('이미지/배경.png');
+    background-color: rgba(15, 14, 15, 1);
+  }
+
+  .mon:hover body{
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+header{  height: 200px;}
+
+#P_lable{
+        margin-left : 44%;
+        margin-top : 3%;
+        width : 250px;
+        text-align : center;
+        }
+
+#P_icon{
+  width:60px;
+  margin-bottom : 10px;
+  margin-left : 10px;
+}
+
+nav{background-color :rgba(35, 35, 35, 0.9);
+  margin-left : -10px;
+  margin-right : -10px;
+   margin-top : 35px;
+   display: flex;}
+
+ul{
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom : 30px;
+  margin-top: 10px;
+  height: 480px;
+  width : 230px;
+  text-align: center;
+
+  }
+
+.pica{margin-left: 330px;}
+.rod{margin-right: 320px;}
+
+</style>
+
+<script>
+
+function p_mouseover(obj){
+  obj.src="이미지/모딜리아니.png";
+}
+
+function p_mouseout(obj){
+  obj.src="이미지/피카소.png";
+}
+
+function M_mouseover(obj){
+  obj.src="이미지/두스부르흐.png";
+}
+
+function M_mouseout(obj){
+  obj.src="이미지/몬드리안.png";
+}
+
+function R_mouseover(obj){
+  obj.src="이미지/까미유.png";
+}
+
+function R_mouseout(obj){
+  obj.src="이미지/로뎅.png";
+}
+
+
+</script>
+
+  </head>
+
+  <body>
+
+
+<header>
+
+<img id="P_lable" src="이미지/인물.png">
+<img id="P_icon" src="이미지/화살표icon.png" onclick="location.href='art_time.html'">
+</header>
+<nav>
+  <ul class="pica">
+      <img class="picaimg" src="이미지/피카소.png" onmouseover="p_mouseover(this)"
+                            onmouseout="p_mouseout(this)" onclick="location.href='index.html'">
+      <p class="P_text">피카소</p>
+      <p class="P_text2">모딜리아니</p>
+  </ul>
+  <ul class="mon">
+    <img class="monimg" src="이미지/몬드리안.png" onmouseover="M_mouseover(this)"
+                          onmouseout="M_mouseout(this)" onclick="location.href='index.html'">
+    <p class="M_text">몬드리안</p>
+    <p class="M_text2">두스부르흐</p>
+  </ul>
+  <ul class="rod">
+    <img class="rodimg" src="이미지/로뎅.png" onmouseover="R_mouseover(this)"
+                          onmouseout="R_mouseout(this)" onclick="location.href='index.html'">
+    <p class="R_text">로뎅</p>
+    <p class="R_text2">까미유</p>
+  </ul>
+</nav>
+
+  </body>
+</html>
